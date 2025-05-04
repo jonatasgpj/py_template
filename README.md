@@ -1,6 +1,6 @@
 # Projeto FastAPI: meu_projeto
 
-Este é meu_projeto
+Este é o projeto:meu_projeto
 
 ## Estrutura do Projeto
 
@@ -19,7 +19,7 @@ meu_projeto/
 
 1. Instale as dependências:
    ```bash
-   pip install -r requirements.txt
+   pip3 install -r requirements.txt
    ```
 
 2. Rode o servidor:
@@ -40,4 +40,4 @@ meu_projeto/
 
 ## Autor
 
-meu_projeto criado por script em bash
+meu_projeto foi criado por script em bash usando template em https://github.com/jonatasgpj/py_template
