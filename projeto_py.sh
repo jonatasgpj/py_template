@@ -60,13 +60,9 @@ grep -rl "$ORIGINAL_NAME" . | xargs sed -i "s/$ORIGINAL_NAME/$NEW_NAME/g"
 echo " Instalando dependências com pip..."
 pip3 install -r requirements.txt
 
-#iniciando Uvicorn
+#iniciando projeto Uvicorn
 echo " Iniciando servidor com Uvicorn..."
-nohup python3 run.py > log.txt 2>&1 &
-#abrir o navegdor
-URL="http://127.0.0.1:8000"
-echo " Abrindo navegador em $URL..."
-sleep 5  # Aguarda o servidor iniciar
-xdg-open "$URL" 2>/dev/null || open "$URL" 2>/dev/null || start "$URL"
+echo "Projeto '$NEW_NAME Verifique em: http://127.0.0.1:8000"
+python3 run.py
 
-echo "Projeto '$NEW_NAME' pronto e rodando! Verifique o navegador"
+
