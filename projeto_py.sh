@@ -29,7 +29,7 @@ check_pip() {
 NEW_NAME=$1
 
 if [ -z "$NEW_NAME" ]; then
-    echo "Uso: ./criar_projeto.sh nome_do_novo_projeto"
+    echo "Uso: ./projeto_py.sh nome_do_novo_projeto"
     exit 1
 fi
 
